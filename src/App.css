@@ -6,7 +6,11 @@
   top: 0;
 }
 
+.links {
+  justify-content: space-around;
+}
 .photo {
+  margin-left: 20px;
   height: 60px;
   width: 200px;
 }

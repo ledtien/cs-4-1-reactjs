@@ -1,22 +1,22 @@
 import "./App.css";
 import logo from "./logo.png";
-import { Nav, Navbar, NavDropdown, Row, Col, Container } from "react-bootstrap";
 
 function SNavbar() {
   return (
     <div>
-      <div className="navbar">
-        <nav>
+      <div className="navbar ">
+        <nav className="container">
           <img className="photo" src={logo} alt="Logo" />
+
+          <div className="links container">
+            <a href="#">Premium</a>
+            <a href="#">Support</a>
+            <a href="#">Download</a>
+            <span>|</span>
+            <a href="#">Sign up</a>
+            <a href="#">Log in</a>
+          </div>
         </nav>
-        <div className="links">
-          <a href="#">Premium</a>
-          <a href="#">Support</a>
-          <a href="#">Download</a>
-          <span>|</span>
-          <a href="#">Sign up</a>
-          <a href="#">Log in</a>
-        </div>
       </div>
     </div>
   );
